@@ -22,6 +22,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # SECURITY WARNING: keep the secret key used in production secret!
 #SECRET_KEY = 'sqtja$+gjg8&dti+tzce%8+gi=1nzz1bz0$y=cx*)&g=@0wn=&'
 SECRET_KEY=os.environ.get('SECRET_KEY')
+#'c8bdd71a850a76f0357be2da10073f92be7c741eee875809'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
@@ -137,4 +138,4 @@ EMAIL_HOST='smtp.gmail.com'
 EMAIL_PORT=587
 EMAIL_USE_TLS=True
 EMAIL_HOST_USER='usernamekshitij@gmail.com'
-EMAIL_HOST_PASSWORD='hdbqxlhlpupqxlae'
+EMAIL_HOST_PASSWORD=os.environ.get('EMAIL_PASS')
