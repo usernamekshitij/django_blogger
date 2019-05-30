@@ -26,7 +26,8 @@ SECRET_KEY=os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['mydjangobloggingapp.herokuapp.com']
+
+ALLOWED_HOSTS = ['mydjangobloggingapp.herokuapp.com','localhost']
 
 
 # Application definition
@@ -138,4 +139,4 @@ EMAIL_HOST='smtp.gmail.com'
 EMAIL_PORT=587
 EMAIL_USE_TLS=True
 EMAIL_HOST_USER='usernamekshitij@gmail.com'
-EMAIL_HOST_PASSWORD=os.environ.get('EMAIL_PASS')
+EMAIL_HOST_PASSWORD='hdbqxlhlpupqxlae'
